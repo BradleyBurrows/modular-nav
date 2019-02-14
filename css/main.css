@@ -23,7 +23,6 @@ body {
 
 header {
   background-color: #e2e2e2;
-  padding-bottom: .7em;
 }
 
 li {
@@ -38,7 +37,6 @@ a {
 a:hover {
   background-color: #0074d9;
   color: #fff;
-  padding: .5em;
 }
 
 h1 {
@@ -51,9 +49,21 @@ h1 {
 
 @media only screen and (min-width: 38em) {
 
-  h1,
+  h1 {
+    text-align: left;
+  }
+
   p {
     margin: 0 0 1.4rem;
+  }
+
+  ul {
+    transform: translateY(-55px);
+    transform: translateX(70px);
+  }
+
+  header {
+    max-height: 60px;
   }
 
 }
